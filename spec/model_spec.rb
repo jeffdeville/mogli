@@ -107,7 +107,7 @@ describe Mogli::Model do
 
   describe "Posting" do
     it "knows which properties are posted" do
-      TestModel.new(:id=>1,:other_property=>2).post_params.keys.should == TestModel.creation_keys
+      TestModel.new(:id=>1,:other_property=>2).post_params.keys.should =~ TestModel.creation_keys
     end
 
     it "includes regular hash properties for posting" do
