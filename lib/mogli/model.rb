@@ -63,7 +63,7 @@ module Mogli
       end
     end
     def warn_about_invalid_property(property)
-      puts "Warning: property #{property} doesn't exist for class #{self.class.name}"
+      # puts "Warning: property #{property} doesn't exist for class #{self.class.name}"
     end
 
     def self.property(arg)
