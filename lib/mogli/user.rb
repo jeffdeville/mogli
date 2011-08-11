@@ -30,6 +30,7 @@ module Mogli
     has_association :movies, "Movie"
     has_association :television, "Television"
     has_association :likes, "Page"
+    has_association :games, "Page"
     has_association :home, "Post"
     has_association :accounts, "Page"
     has_association :apprequests, "AppRequest"
